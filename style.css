@@ -44,9 +44,9 @@
 }
 
 .subtitle {
-  font-size: 2.7rem;
+  font-size: 2.0rem;
   color: #EBC9C5; /* Softer beige/pink - more readable */
-  margin-bottom: 30px; /* tighter gap to h1 */
+  margin-bottom: 20px; /* tighter gap to h1 */
 }
 
 .btn {
