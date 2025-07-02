@@ -29,39 +29,42 @@
 
 .content {
   max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* aligns button with the left edge of text */
 }
 
 
 .content h1 {
-  font-size: 6.5rem; /* Even bigger */
+  font-size: 7rem; /* Bigger */
   color: #F2EBE3;
   letter-spacing: 2px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   line-height: 1.1;
 }
 
 .subtitle {
-  font-size: 2.5rem;
-  color: #AA8280;
-  margin-bottom: 40px;
+  font-size: 2.7rem;
+  color: #FBEFE7; /* Softer beige/pink - more readable */
+  margin-bottom: 30px; /* tighter gap to h1 */
 }
 
-
-
-/* Button */
 .btn {
+  display: inline-block;
   text-decoration: none;
   background-color: #AA8280;
   color: white;
-  padding: 14px 28px;
+  padding: 16px 36px;
   border-radius: 30px;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
   transition: background-color 0.3s ease;
 }
 
 .btn:hover {
   background-color: #8d6866;
 }
+
 
 /* Responsive */
 @media (max-width: 600px) {
@@ -71,13 +74,24 @@
     padding-left: 0;
   }
 
+  .content {
+    align-items: center;
+  }
+
   .content h1 {
-    font-size: 3.2rem;
+    font-size: 3.5rem;
   }
 
   .subtitle {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
+    margin-bottom: 25px;
   }
+
+  .btn {
+    font-size: 1.05rem;
+    padding: 14px 30px;
+  }
+}
 
 }
 
