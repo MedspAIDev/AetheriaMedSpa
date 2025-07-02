@@ -1,1 +1,74 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  background-image: url('background.jpg'); /* use your file name */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+/* Overlay: adds soft dim to the image so text is readable */
+.overlay {
+  background-color: rgba(0, 0, 0, 0.4); /* semi-transparent dark layer */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+/* Text Content */
+.content h1 {
+  font-size: 3.5rem;
+  color: #F2EBE3;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: #AA8280;
+  margin-bottom: 30px;
+}
+
+/* Button */
+.btn {
+  text-decoration: none;
+  background-color: #AA8280;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 30px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #8d6866;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .content h1 {
+    font-size: 2.5rem;
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+  }
+
+  .btn {
+    padding: 12px 24px;
+    font-size: 0.95rem;
+  }
+}
 
