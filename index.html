@@ -4,9 +4,52 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Aetheira | Aesthetics & Wellness</title>
-  <link rel="stylesheet" href="style.css?v=6" />
+  <link rel="stylesheet" href="style.css?v=7" />
 </head>
+
+ <script>
+  const hamburger = document.querySelector('.hamburger');
+  const navLinks = document.querySelector('.nav-links');
+
+  hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('show');
+  });
+</script>
+</body>
+</html>
+ 
 <body>
+
+  <!-- Top Contact Bar (Not Sticky) -->
+  <div class="top-bar">
+    <div class="top-left">
+      <img src="logo.jpg" alt="Aetheira Logo" class="logo" />
+    </div>
+    <div class="top-right">
+      <p>Call: (123) 456-7890</p>
+      <p>Email: info@aetheira.com</p>
+      <a href="#book" class="top-btn">Book Now</a>
+      <a href="#contact" class="top-btn">Contact Us</a>
+    </div>
+  </div>
+
+  <!-- Sticky Nav Bar -->
+  <header class="sticky-nav">
+    <nav>
+      <div class="nav-logo">Aetheira</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#vision">Our Vision</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#membership">Membership</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#book" class="nav-btn">Book Now</a></li>
+      </ul>
+      <div class="hamburger">&#9776;</div>
+    </nav>
+  </header>
+
+  
   <div class="hero">
     <div class="overlay">
       <div class="content">
@@ -20,16 +63,6 @@
     </div>
   </div>
 
-<main>
-  <section class="info-grid">
-    <div class="info-box">🌟<span>Our Vision</span></div>
-    <div class="info-box">💆‍♀️<span>Services</span></div>
-    <div class="info-box">💳<span>How to Pay</span></div>
-    <div class="info-box">📖<span>Our History</span></div>
-    <div class="info-box">☎️<span>Contact Info</span></div>
-    <div class="info-box">🧘<span>Membership</span></div>
-  </section>
-</main>
 
 
 </body>
