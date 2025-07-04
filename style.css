@@ -191,6 +191,15 @@ nav {
 }
 
 /* Hero Section */
+
+/* Use Georgia for the hero section */
+.hero,
+.hero .content h1,
+.hero .subtitle,
+.hero .btn {
+  font-family: Georgia, serif;
+}
+
 .hero {
   height: 100vh;
   background-image: url('background.jpg'); /* use your file name */
