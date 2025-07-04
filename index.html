@@ -4,6 +4,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Aetheira | Aesthetics & Wellness</title>
+  <!-- Font Awesome for icons -->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
   <link rel="stylesheet" href="style.css?v=9" />
 </head>
 
@@ -20,23 +25,32 @@
  
 <body>
 
- <!-- Top Contact Bar (Not Sticky) -->
 <div class="top-bar">
   <div class="top-left">
     <img src="logo.jpg" alt="Aetheira Logo" class="logo" />
   </div>
+
   <div class="top-center">
     <div class="contact-item">
-      <span class="icon">📞</span> (123) 456-7890
+      <i class="fas fa-phone"></i>
+      <div class="contact-text">
+        <p class="label">Call Today</p>
+        <p class="value">(123) 456-7890</p>
+      </div>
     </div>
     <div class="contact-item">
-      <span class="icon">✉️</span> info@aetheira.com
+      <i class="fas fa-envelope"></i>
+      <div class="contact-text">
+        <p class="label">Email</p>
+        <p class="value">info@aetheira.com</p>
+      </div>
     </div>
   </div>
+
   <div class="top-right">
-    <a href="#" class="social-icon">🌐</a> <!-- Google -->
-    <a href="#" class="social-icon">📷</a> <!-- Instagram -->
-    <a href="#" class="social-icon">📘</a> <!-- Facebook -->
+    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+    <a href="#" class="social-icon"><i class="fab fa-google"></i></a>
   </div>
 </div>
 
