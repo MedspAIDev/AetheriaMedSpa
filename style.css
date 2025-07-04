@@ -345,6 +345,114 @@ nav {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
 
+/* Footer Styles */
+.footer {
+  background-color: #AA8280;
+  color: #F2EBE3;
+  padding: 60px 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-logo img {
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.footer-logo .tagline {
+  font-size: 1rem;
+  margin-top: 0;
+  line-height: 1.5;
+}
+
+.footer-contact h4,
+.footer-links h4 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.footer-contact p,
+.footer-links ul li {
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-contact i,
+.footer-links i {
+  font-size: 1rem;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li a {
+  color: #F2EBE3;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+  color: #fff;
+}
+
+.social-icons {
+  margin-top: 15px;
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons a {
+  background-color: #F2EBE3;
+  color: #AA8280;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.social-icons a:hover {
+  background-color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-logo,
+  .footer-contact,
+  .footer-links {
+    width: 100%;
+  }
+
+  .footer-links ul {
+    padding-left: 0;
+  }
+}
+
+
 /* Responsive stacking on mobile */
 @media (max-width: 768px) {
   .team-photo {
