@@ -17,7 +17,7 @@ body {
 }
 
 .logo {
-  height: 50px;
+  height: 65px;
   object-fit: contain;
 }
 
@@ -133,8 +133,13 @@ nav {
   font-size: 1rem;
   font-weight: 600;
   text-decoration: none;
-  margin-left: auto;
+  transition: background-color 0.3s ease;
 }
+
+.nav-btn:hover {
+  background-color: #8d6866; /* slightly darker tone */
+}
+
 
 /* Hamburger for mobile */
 .hamburger {
