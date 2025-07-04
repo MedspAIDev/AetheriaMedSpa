@@ -7,12 +7,13 @@ body {
 
 /* Top Contact Bar */
 .top-bar {
-  background-color: #FAF6F2;
+  background-color: #ffffff;
   padding: 12px 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  border-bottom: 1px solid #eee;
 }
 
 .logo {
@@ -20,36 +21,66 @@ body {
   object-fit: contain;
 }
 
-/* Centered Phone & Email */
+/* Contact Info */
 .top-center {
   display: flex;
-  flex-direction: column;
+  gap: 40px;
   align-items: center;
-  gap: 6px;
-  font-size: 0.95rem;
 }
 
 .contact-item {
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 10px;
+  font-size: 0.95rem;
 }
 
-.icon {
-  font-size: 1.2rem;
-}
-
-/* Social Icons */
-.social-icon {
-  font-size: 1.2rem;
-  margin-left: 12px;
-  text-decoration: none;
+.contact-item i {
+  font-size: 1.4rem;
   color: #AA8280;
 }
 
-.social-icon:hover {
-  color: #8d6866;
+.contact-text {
+  display: flex;
+  flex-direction: column;
 }
+
+.contact-text .label {
+  font-size: 0.8rem;
+  color: #999;
+  margin: 0;
+}
+
+.contact-text .value {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0;
+  color: #333;
+}
+
+/* Social Icons */
+.top-right {
+  display: flex;
+  gap: 16px;
+}
+
+.social-icon {
+  font-size: 1.2rem;
+  color: #AA8280;
+  background-color: #F2EBE3;
+  padding: 8px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.social-icon:hover {
+  background-color: #e0d3c8;
+}
+
 
 /* Sticky Nav */
 .sticky-nav {
