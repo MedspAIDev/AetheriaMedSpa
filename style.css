@@ -8,7 +8,7 @@ body {
 /* Top Contact Bar */
 .top-bar {
   background-color: #FAF6F2;
-  padding: 15px 30px;
+  padding: 12px 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,26 +20,35 @@ body {
   object-fit: contain;
 }
 
-/* Contact Info */
-.top-right {
+/* Centered Phone & Email */
+.top-center {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-.top-right p {
-  margin: 0;
+  gap: 6px;
   font-size: 0.95rem;
 }
 
-.top-btn {
-  background-color: #AA8280;
-  color: white;
-  padding: 8px 16px;
-  border-radius: 20px;
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.icon {
+  font-size: 1.2rem;
+}
+
+/* Social Icons */
+.social-icon {
+  font-size: 1.2rem;
+  margin-left: 12px;
   text-decoration: none;
-  font-size: 0.9rem;
+  color: #AA8280;
+}
+
+.social-icon:hover {
+  color: #8d6866;
 }
 
 /* Sticky Nav */
@@ -58,18 +67,13 @@ nav {
   padding: 15px 30px;
 }
 
-.nav-logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #AA8280;
-}
-
 .nav-links {
   display: flex;
-  gap: 20px;
+  gap: 24px;
   list-style: none;
   margin: 0;
   padding: 0;
+  font-size: 1.1rem;
 }
 
 .nav-links a {
@@ -80,19 +84,23 @@ nav {
 
 .nav-btn {
   background-color: #AA8280;
-  color: white !important;
-  padding: 8px 16px;
-  border-radius: 20px;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: auto;
 }
 
-/* Hamburger Menu */
+/* Hamburger for mobile */
 .hamburger {
   display: none;
   font-size: 1.8rem;
   cursor: pointer;
 }
 
-/* Responsive Nav */
+/* Responsive */
 @media (max-width: 768px) {
   .nav-links {
     display: none;
@@ -100,9 +108,9 @@ nav {
     background-color: white;
     position: absolute;
     top: 100%;
-    right: 0;
+    left: 0;
     width: 100%;
-    text-align: right;
+    text-align: left;
     padding: 20px;
   }
 
@@ -112,6 +120,17 @@ nav {
 
   .hamburger {
     display: block;
+    margin-left: 20px;
+  }
+
+  .nav-btn {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
 
