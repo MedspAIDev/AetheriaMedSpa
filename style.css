@@ -262,6 +262,55 @@ nav {
   padding: 80px 0;
 }
 
+/* Our Story Section */
+.our-story {
+  background-color: #FAF6F2;
+  padding: 80px 20px 60px;
+}
+
+.story-container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.our-story h2 {
+  font-size: 2.5rem;
+  color: #AA8280;
+  margin-bottom: 30px;
+  text-align: left;
+  position: relative;
+}
+
+.story-content {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+}
+
+/* Float image right on desktop */
+.team-photo {
+  float: right;
+  margin: 0 0 20px 30px;
+  width: 350px;
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* Responsive stacking on mobile */
+@media (max-width: 768px) {
+  .team-photo {
+    float: none;
+    display: block;
+    margin: 0 auto 30px auto;
+  }
+
+  .story-content {
+    text-align: left;
+  }
+}
+
+
 
 
 /* Responsive for mobile */
