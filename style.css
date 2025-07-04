@@ -313,8 +313,10 @@ nav {
 }
 
 .story-button {
-  text-align: center;
-  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;   /* space above the button */
+  margin-bottom: 60px; /* space below the button */
 }
 
 .story-button .btn {
