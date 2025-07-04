@@ -312,6 +312,28 @@ nav {
   color: #333;
 }
 
+.story-button {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.story-button .btn {
+  background-color: #AA8280;
+  color: white;
+  padding: 14px 32px;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  font-family: Georgia, serif; /* Optional: match hero button font */
+}
+
+.story-button .btn:hover {
+  background-color: #8d6866;
+}
+
+
+
 /* Float image right on desktop */
 .team-photo {
   float: right;
