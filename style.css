@@ -24,7 +24,7 @@ body {
 /* Contact Info */
 .top-center {
   display: flex;
-  gap: 40px;
+  gap: 60px;
   align-items: center;
 }
 
