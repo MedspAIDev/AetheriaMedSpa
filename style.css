@@ -353,13 +353,15 @@ nav {
 }
 
 .footer-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 40px;
-  max-width: 1200px;
-  margin: auto;
+  gap: 60px;
 }
+
 
 .footer-logo img {
   height: 130px;
@@ -374,7 +376,7 @@ nav {
 
 .footer-contact h4,
 .footer-links h4 {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   margin-bottom: 15px;
   font-weight: 600;
   color: #fff;
@@ -382,7 +384,7 @@ nav {
 
 .footer-contact p,
 .footer-links ul li {
-  font-size: 0.95rem;
+  font-size: 1.05rem;
   margin-bottom: 10px;
   display: flex;
   align-items: center;
@@ -391,7 +393,7 @@ nav {
 
 .footer-contact i,
 .footer-links i {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .footer-links ul {
