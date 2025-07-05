@@ -350,6 +350,8 @@ nav {
   background-color: #AA8280;
   color: #F2EBE3;
   padding: 60px 20px;
+  position: relative;
+  overflow: hidden;
 }
 
 .footer-container {
