@@ -192,7 +192,7 @@ nav {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 12vh 10vw 0;
+  padding: 18vh 10vw 0;
   text-align: left;
 }
 
@@ -204,15 +204,15 @@ nav {
 }
 
 .content h1 {
-  font-size: 7rem;
-  color: #746055;
+  font-size: 8rem;
+  color: #b69583;
   letter-spacing: 2px;
   margin-bottom: 10px;
   line-height: 1.1;
 }
 
 .subtitle {
-  font-size: 2.3rem;
+  font-size: 2.6rem;
   color: #f6eddf;
   margin-bottom: 20px;
 }
@@ -222,9 +222,9 @@ nav {
   text-decoration: none;
   background-color: #746055;
   color: white;
-  padding: 16px 36px;
+  padding: 18px 40px;
   border-radius: 30px;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 500;
   transition: background-color 0.3s ease;
 }
