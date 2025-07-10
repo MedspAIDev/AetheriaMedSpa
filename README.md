@@ -1,1 +1,1 @@
-# AetheiraMedSpa
+# AetheriaMedSpa
