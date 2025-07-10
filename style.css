@@ -38,7 +38,7 @@ body {
 
 .contact-item i {
   font-size: 1.4rem;
-  color: #d09370;
+  color: #746055;
 }
 
 .contact-text .value {
@@ -57,7 +57,7 @@ body {
 .social-icon {
   font-size: 1.2rem;
   color: #fff;
-  background-color: #d09370;
+  background-color: #746055;
   width: 42px;
   height: 42px;
   border-radius: 50%;
@@ -109,7 +109,7 @@ nav {
 }
 
 .nav-btn {
-  background-color: #d09370;
+  background-color: #746055;
   color: white;
   padding: 12px 24px;
   border-radius: 30px;
@@ -220,7 +220,7 @@ nav {
 .btn {
   display: inline-block;
   text-decoration: none;
-  background-color: #d09370;
+  background-color: #746055;
   color: white;
   padding: 16px 36px;
   border-radius: 30px;
@@ -258,7 +258,7 @@ nav {
   display: inline-block;
   position: relative;
   font-size: 2.5rem;
-  color: #d09370;
+  color: #746055;
   font-weight: 600;
   padding-bottom: 10px;
 }
@@ -268,7 +268,7 @@ nav {
   display: block;
   height: 2px;
   width: 60%;
-  background-color: #d09370;
+  background-color: #746055;
   margin: 8px auto 0 auto;
 }
 
@@ -286,7 +286,7 @@ nav {
 }
 
 .story-button .btn {
-  background-color: #d09370;
+  background-color: #746055;
   color: white;
   padding: 14px 32px;
   border-radius: 30px;
@@ -450,7 +450,15 @@ nav {
   100% { transform: scale(1); }
 }
 
-.header .btn.book-now {
-  animation: pulse 2s ease-in-out infinite;
-  animation-delay: 4s;
+@keyframes wiggle {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(2deg); }
+  50% { transform: rotate(-2deg); }
+  75% { transform: rotate(2deg); }
+}
+
+.header .btn.book-now,
+.btn.book-now {
+  animation: wiggle 1.5s ease-in-out infinite;
+  animation-delay: 2s;
 }
