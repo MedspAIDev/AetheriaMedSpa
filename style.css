@@ -3,7 +3,7 @@
 body {
   margin: 0;
   font-family: 'Helvetica Neue', sans-serif;
-  background-color: #ffebe1;
+  background-color: #f8f8f9;
 }
 
 /* Top Contact Bar */
@@ -105,7 +105,7 @@ nav {
 }
 
 .nav-links a:hover {
-  color: #d09370;
+  color: #c2a78c;
 }
 
 .nav-btn {
@@ -120,7 +120,7 @@ nav {
 }
 
 .nav-btn:hover {
-  background-color: #b69583;
+  background-color: #c2a78c;
 }
 
 .hamburger {
@@ -178,7 +178,7 @@ nav {
 
 .hero {
   height: 100vh;
-  background-image: url('Massage Pic.JPG');
+  background-image: url('Half Face Pic.JPG');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
