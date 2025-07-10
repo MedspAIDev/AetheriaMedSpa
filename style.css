@@ -220,7 +220,7 @@ nav {
 .btn {
   display: inline-block;
   text-decoration: none;
-  background-color: #b9e0e8;
+  background-color: #9aa9b0;
   color: white;
   padding: 18px 40px;
   border-radius: 30px;
@@ -230,7 +230,7 @@ nav {
 }
 
 .btn:hover {
-  background-color: #9aa9b0;
+  background-color: #b9e0e8;
 }
 
 .title-group {
